@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NextGen Medical Academy</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <meta name="description" content="NextGen Medical Academy — high-quality medical education and training." />
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/logo.svg" alt="NextGen Medical Academy logo" class="logo">
+      <span class="brand-text">
+        <span class="brand-title">NEXTGEN</span>
+        <span class="brand-subtitle">MEDICAL ACADEMY</span>
+      </span>
+    </a>
+    <nav class="nav" id="site-nav">
+      <a href="index.html" class="nav-link">Home / About</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+<main class="container">
+  <header class="page-header">
+    <h1>Contact</h1>
+    <p class="lead">Have a question? Reach us via the form below, or email/phone directly.</p>
+  </header>
+
+  <section class="contact-grid">
+    <form
+      class="contact-form"
+      method="POST"
+      action="https://formspree.io/f/your_form_id">
+      <!-- If deploying on Netlify, remove the action above and add data-netlify="true".
+           Example:
+           <form name="contact" method="POST" data-netlify="true">
+           <input type="hidden" name="form-name" value="contact" />
+      -->
+      <label>
+        <span>Name</span>
+        <input type="text" name="name" required placeholder="Your full name">
+      </label>
+
+      <label>
+        <span>Email</span>
+        <input type="email" name="email" required placeholder="you@example.com">
+      </label>
+
+      <label>
+        <span>Message</span>
+        <textarea name="message" rows="6" required placeholder="How can we help?"></textarea>
+      </label>
+
+      <button type="submit" class="btn btn-primary">Send Message</button>
+      <p class="muted small">By submitting, you agree to be contacted regarding your inquiry.</p>
+    </form>
+
+    <aside class="contact-details">
+      <div class="contact-card">
+        <h2>Reach Us</h2>
+        <p><strong>Email:</strong> <a href="mailto:NextGenMedics@gmail.com">NextGenMedics@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+447843851211">+44 7843 851211</a></p>
+        <p><strong>Hours:</strong> Mon–Fri, 9:00–17:00 (local)</p>
+      </div>
+      <div class="map-placeholder">
+        <div class="map-box">
+          <p class="muted">Map placeholder — add your location/embed Google Maps later.</p>
+        </div>
+      </div>
+    </aside>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> NextGen Medical Academy. All rights reserved.</p>
+    <p>Email: <a href="mailto:NextGenMedics@gmail.com">NextGenMedics@gmail.com</a> · Phone: <a href="tel:+447843851211">+44 7843 851211</a></p>
+  </div>
+  <script src="js/main.js"></script>
+</footer>
+</body>
+</html>

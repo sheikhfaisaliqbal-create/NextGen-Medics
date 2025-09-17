@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="60" viewBox="0 0 220 60">
+  <defs>
+    <style>
+      .t1{font: 800 20px 'Inter', Arial, sans-serif; letter-spacing: 1px; fill:#0a0a0a}
+      .t2{font: 500 9px 'Inter', Arial, sans-serif; fill:#4b5563}
+    </style>
+  </defs>
+  <!-- Blue medical cross -->
+  <g transform="translate(6,6)">
+    <rect x="0" y="16" width="16" height="16" rx="3" fill="#0b64ff"/>
+    <rect x="16" y="16" width="16" height="16" rx="3" fill="#0b64ff"/>
+    <rect x="8" y="8" width="16" height="16" rx="3" fill="#0b64ff"/>
+    <rect x="8" y="24" width="16" height="16" rx="3" fill="#0b64ff"/>
+  </g>
+  <!-- Text -->
+  <text x="74" y="28" class="t1">NEXTGEN</text>
+  <text x="74" y="44" class="t2">MEDICAL ACADEMY</text>
+</svg>
